@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwtEpic", "jwtEpic\jwtEpic.csproj", "{493226CA-1611-4B59-8C79-A77A17E73AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwtEpicApI", "jwtEpicApI\jwtEpicApI.csproj", "{47B4C985-9E62-4434-8F5A-E89E9BCE527B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{493226CA-1611-4B59-8C79-A77A17E73AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493226CA-1611-4B59-8C79-A77A17E73AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493226CA-1611-4B59-8C79-A77A17E73AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493226CA-1611-4B59-8C79-A77A17E73AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B4C985-9E62-4434-8F5A-E89E9BCE527B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B4C985-9E62-4434-8F5A-E89E9BCE527B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B4C985-9E62-4434-8F5A-E89E9BCE527B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B4C985-9E62-4434-8F5A-E89E9BCE527B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0FF29A1-F38B-4EAE-A986-8EFD1ABCE344}
+	EndGlobalSection
+EndGlobal
