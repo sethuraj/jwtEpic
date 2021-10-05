@@ -24,7 +24,7 @@ namespace jwtEpicApI
     {
         [FunctionName("jwtEpic")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req,
             ILogger log)
         {
             string fhirEpic = @"https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token";
